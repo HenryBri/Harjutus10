@@ -2,8 +2,7 @@ name: GitHub email push
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  deploy:
-    mail_on_push:
+  mail_on_push:
     runs-on: ubuntu-latest
     steps:
       - name: Send mail
